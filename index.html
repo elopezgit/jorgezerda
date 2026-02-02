@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0c10" />
+
   <title>Jorge Zerda</title>
 
   <link rel="stylesheet" href="css/style.css" />
@@ -11,43 +13,73 @@
 </head>
 <body>
 
-  <div class="card">
+  <main class="wrap">
+    <section class="card" aria-label="Tarjeta digital de Jorge Zerda">
 
-    <!-- Avatar -->
-    <div class="avatar-wrapper">
-      <img src="img/perfil.png" alt="Jorge Zerda" class="avatar">
-    </div>
+      <header class="top">
+        <div class="avatar-ring">
+          <img class="avatar" src="img/perfil.png" alt="Jorge Zerda">
+        </div>
 
-    <h1>Jorge Zerda</h1>
-    <p class="subtitle"></p>
+        <h1>Jorge Zerda</h1>
 
-    <div class="buttons">
+        <p class="subtitle">
+          Tarjeta digital interactiva<br>
+          <span class="tech">NFC · QR</span>
+        </p>
+      </header>
 
-      <a href="https://wa.me/5493816292716" target="_blank" class="btn whatsapp">
-        <i class="fab fa-whatsapp"></i>
-        WhatsApp
-      </a>
+      <div class="buttons">
 
-      <a href="tel:+5493816292716" class="btn call">
-        <i class="fa-solid fa-phone"></i>
-        Llamar
-      </a>
+        <a class="btn whatsapp" href="https://wa.me/5493816292716" target="_blank" rel="noopener">
+          <span class="btn-icon wpp"><i class="fa-brands fa-whatsapp"></i></span>
+          <span class="btn-text">
+            <strong>WhatsApp</strong>
+            <small>Escribime directo</small>
+          </span>
+          <span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
 
-      <a href="https://www.instagram.com/jorgitozerda?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-         target="_blank" class="btn instagram">
-        <i class="fab fa-instagram"></i>
-        Instagram
-      </a>
+        <a class="btn call" href="tel:+5493816292716">
+          <span class="btn-icon phone"><i class="fa-solid fa-phone"></i></span>
+          <span class="btn-text">
+            <strong>Llamar</strong>
+            <small>Un toque y listo</small>
+          </span>
+          <span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
 
-      <a href="https://interaccesorios.com.ar/?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
-         target="_blank" class="btn web">
-        <i class="fa-solid fa-globe"></i>
-        Sitio web
-      </a>
+        <a class="btn instagram"
+           href="https://www.instagram.com/jorgitozerda?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+           target="_blank" rel="noopener">
+          <span class="btn-icon ig"><i class="fa-brands fa-instagram"></i></span>
+          <span class="btn-text">
+            <strong>Instagram</strong>
+            <small>Ver perfil</small>
+          </span>
+          <span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
 
-    </div>
+        <a class="btn web"
+           href="https://interaccesorios.com.ar/?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+           target="_blank" rel="noopener">
+          <span class="btn-icon site"><i class="fa-solid fa-globe"></i></span>
+          <span class="btn-text">
+            <strong>Sitio web</strong>
+            <small>interaccesorios.com.ar</small>
+          </span>
+          <span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
 
-  </div>
+      </div>
+
+      <footer class="footer">
+        <span class="dot"></span>
+        <p>Tarjeta digital • Optimizada para NFC</p>
+      </footer>
+
+    </section>
+  </main>
 
 </body>
 </html>
